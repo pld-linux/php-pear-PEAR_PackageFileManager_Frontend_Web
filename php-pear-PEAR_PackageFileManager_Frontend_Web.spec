@@ -5,7 +5,7 @@
 %define		_pearname	PEAR_PackageFileManager_Frontend_Web
 
 Summary:	%{_pearname} - A Web GUI frontend for the PEAR_PackageFileManager2 class
-Summary(pl):	%{_pearname} - Graficzny frontend webowy do klasy PEAR_PackageFileManger2
+Summary(pl):	%{_pearname} - Graficzny frontend WWW do klasy PEAR_PackageFileManger2
 Name:		php-pear-%{_pearname}
 Version:	0.5.0
 Release:	1
@@ -35,9 +35,9 @@ package.xml files (versions 1.0 and 2.0).
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
-Ten pakiet dostarcza frontend webowy do klasy
-PEAR_PackageFileManager2. U³atwia do developerom tworzenie i
-utrzymywanie plików package.xml (w wersji 1.0 i 2.0).
+Ten pakiet dostarcza frontend WWW do klasy PEAR_PackageFileManager2.
+U³atwia programistom tworzenie i utrzymywanie plików package.xml (w
+wersji 1.0 i 2.0).
 
 Ta klasa ma w PEAR status: %{_status}.
 
@@ -45,7 +45,7 @@ Ta klasa ma w PEAR status: %{_status}.
 Summary:	Tests for PEAR::%{_pearname}
 Summary(pl):	Testy dla PEAR::%{_pearname}
 Group:		Development
-Requires:	%{name} = %{epoch}:%{version}-%{release}
+Requires:	%{name} = %{version}-%{release}
 AutoReq:	no
 
 %description tests
@@ -77,4 +77,4 @@ fi
 %{php_pear_dir}/PEAR/PackageFileManager/Frontend/Web
 %{php_pear_dir}/PEAR/PackageFileManager/Frontend/Web.php
 %{php_pear_dir}/PEAR/PackageFileManager/Frontend/Decorator
-%{php_pear_dir}/data/PEAR_PackageFileManager_Frontend_Web/
+%{php_pear_dir}/data/PEAR_PackageFileManager_Frontend_Web
