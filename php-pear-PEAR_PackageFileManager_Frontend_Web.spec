@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - A Web GUI frontend for the PEAR_PackageFileManager2 class
 Summary(pl):	%{_pearname} - Graficzny frontend WWW do klasy PEAR_PackageFileManger2
 Name:		php-pear-%{_pearname}
-Version:	0.5.0
+Version:	0.6.0
 Release:	1
 License:	PHP License 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	a150d36981003858ba1f40bda1b38ce2
+# Source0-md5:	d5398fd5cdd72e2a2f1610d4c7b96466
 URL:		http://pear.php.net/package/PEAR_PackageFileManager_Frontend_Web/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
