@@ -5,7 +5,7 @@
 %define		_pearname	PEAR_PackageFileManager_Frontend_Web
 
 Summary:	%{_pearname} - A Web GUI frontend for the PEAR_PackageFileManager2 class
-Summary(pl.UTF-8):   %{_pearname} - Graficzny frontend WWW do klasy PEAR_PackageFileManger2
+Summary(pl.UTF-8):	%{_pearname} - Graficzny frontend WWW do klasy PEAR_PackageFileManger2
 Name:		php-pear-%{_pearname}
 Version:	0.6.0
 Release:	1
@@ -43,7 +43,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development
 Requires:	%{name} = %{version}-%{release}
 AutoReq:	no
