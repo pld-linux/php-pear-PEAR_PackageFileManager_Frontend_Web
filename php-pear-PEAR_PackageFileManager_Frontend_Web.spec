@@ -1,14 +1,11 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		PEAR
-%define		_subclass	PackageFileManager_Frontend_Web
 %define		_status		alpha
 %define		_pearname	PEAR_PackageFileManager_Frontend_Web
-
 Summary:	%{_pearname} - A Web GUI frontend for the PEAR_PackageFileManager2 class
 Summary(pl.UTF-8):	%{_pearname} - Graficzny frontend WWW do klasy PEAR_PackageFileManger2
 Name:		php-pear-%{_pearname}
 Version:	0.6.0
-Release:	2
+Release:	3
 License:	PHP License 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -20,7 +17,9 @@ Requires:	php-pear
 Requires:	php-pear-HTML_QuickForm >= 3.2.6
 Requires:	php-pear-HTML_QuickForm_Controller >= 1.0.6
 Requires:	php-pear-HTML_Table >= 1.6.0
-Requires:	php-pear-PEAR_PackageFileManager_Frontend >= 0.6.0
+Requires:	php-pear-PEAR_PackageFileManager_Frontend >= 0.7.0
+Suggests:	php-pear-PHP_Compat
+Suggests:	php-pear-Text_Highlighter
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
