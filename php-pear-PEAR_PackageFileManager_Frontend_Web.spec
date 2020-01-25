@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		alpha
 %define		_pearname	PEAR_PackageFileManager_Frontend_Web
 Summary:	%{_pearname} - A Web GUI frontend for the PEAR_PackageFileManager2 class
